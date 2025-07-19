@@ -1,0 +1,38 @@
+# macOS 系统文件
+.DS_Store
+
+# 数据库和配置
+config.db
+config.yaml
+
+# 日志文件
+logs/
+*.log
+xiaozhi-server-linux/logs/
+
+# 临时文件和目录
+tmp/
+xiaozhi-server-linux/tmp/
+
+# 编译生成文件
+xiaozhi-server-mac
+xiaozhi-server-linux/
+xiaozhi-server-linux.tar.gz
+
+# Go 构建缓存
+bin/
+*.exe
+*.out
+*.test
+
+# 依赖管理
+vendor/
+
+# IDE/编辑器相关
+.idea/
+.vscode/
+*.swp
+
+# 其他
+*.bak
+*.tmp
